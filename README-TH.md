@@ -1,5 +1,5 @@
 # HUD UI (สำหรับ Forge 1.20.1 + ParCool)
-
+This project was created with AI assistance and is free to use.
 มอดนี้ทำ HUD วงกลม 3 วง มุมล่างซ้ายแบบในรูปตัวอย่าง:
 
 - **HP** (วงแดง หัวใจ + ตัวหนังสือ "HP") — มีวงแหวนบางๆ ล้อมรอบด้านนอกแสดงค่า **เกราะ (armor)**
