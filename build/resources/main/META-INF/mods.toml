@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/"
+
+[[mods]]
+modId="hudui"
+version="1.0.0"
+displayName="HUD UI"
+authors="You"
+description='''Custom circular HP/Armor, Food and ParCool Stamina HUD with a minimal dark hotbar.'''
+
+[[dependencies.hudui]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.hudui]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+# ParCool is optional: if it's installed we read its stamina value directly
+# for the stamina ring; if it's not installed, the mod still loads fine and
+# the stamina ring is simply not drawn (see VitalsHudOverlay).
+[[dependencies.hudui]]
+    modId="parcool"
+    mandatory=false
+    versionRange="[3.4.3,)"
+    ordering="AFTER"
+    side="CLIENT"
